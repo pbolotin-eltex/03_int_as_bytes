@@ -1,3 +1,11 @@
+/********************************************
+Task 3
+
+Need to output a sequence of bytes from int
+using pointer variable.
+
+*********************************************/
+
 #include <stdio.h>
 
 int main() {
