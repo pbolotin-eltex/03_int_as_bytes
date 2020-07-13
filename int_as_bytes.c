@@ -14,7 +14,7 @@ int main() {
 
     //Print "value" as a sequence of bytes:
     for(int i = 0; i < sizeof(value); i++) {
-        printf("%x%c", ptr[i], (i == sizeof(value)-1)?' ':'\n');
+        printf("%x%c", ptr[i], (sizeof(value)-1 == i)?' ':'\n');
     }
     return 0;
 }
